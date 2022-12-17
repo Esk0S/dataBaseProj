@@ -28,6 +28,9 @@ public:
     }
     virtual bool input(sqlite3 *db) = 0;
     static bool output(sqlite3 *db, int _id);
+    static bool delete_str(sqlite3 *db, int _id);
+    static bool output_table(sqlite3 *db);
+
 };
 
 #endif

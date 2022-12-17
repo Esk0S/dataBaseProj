@@ -3,7 +3,7 @@ project(dataBaseProj)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(dataBaseProj main.cpp abstractField.h studField.cpp studField.h idField.cpp idField.h sqlite3.c sqlite3.h abstractField.cpp)
+add_executable(dataBaseProj main.cpp abstractField.h idField.cpp idField.h sqlite3.c sqlite3.h abstractField.cpp nameField.cpp nameField.h courseField.cpp courseField.h groupField.cpp groupField.h facultyField.cpp facultyField.h)
 find_package (SQLite3)
 
 if (SQLITE3_FOUND)

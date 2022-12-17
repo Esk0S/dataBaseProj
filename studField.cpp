@@ -1,2 +1,0 @@
-
-#include "studField.h"
